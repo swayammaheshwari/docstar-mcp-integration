@@ -1,0 +1,21 @@
+{
+  "name": "walkover-plugins",
+  "owner": {
+    "name": "Walkover"
+  },
+  "metadata": {
+    "description": "Cursor plugins for DocStar and Embarko."
+  },
+  "plugins": [
+    {
+      "name": "docstar",
+      "source": "docstar",
+      "description": "Publish API docs your users' AI assistants can read and call."
+    },
+    {
+      "name": "embarko",
+      "source": "embarko",
+      "description": "Instant hosting for apps you build with AI."
+    }
+  ]
+}

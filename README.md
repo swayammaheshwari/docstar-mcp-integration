@@ -1,45 +1,21 @@
-# DocStar for Cursor
+# Cursor plugins
 
-Connect Cursor to DocStar through the Model Context Protocol (MCP).
+Cursor plugins for our products. This is a multi-plugin repository: the root
+`.cursor-plugin/marketplace.json` lists every plugin, and each plugin has its
+own folder and manifest.
 
-## What it does
+| Plugin | What it does |
+| ------ | ------------ |
+| [docstar](docstar) | Publish API docs your users' AI assistants can read and call |
+| [embarko](embarko) | Instant hosting for apps you build with AI |
 
-DocStar turns your product's API into published docs that AI assistants can
-read and call. This plugin gives Cursor access to the DocStar MCP server so the
-agent can work with your DocStar docs directly from the editor.
+## Structure
 
-## Install
-
-Install from the Cursor Marketplace: open **Customize**, find **DocStar**, and
-select **Install**.
-
-Or add the server manually to `~/.cursor/mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "docstar": {
-      "url": "https://mcp.docstar.io/mcp"
-    }
-  }
-}
 ```
-
-## Components
-
-| Component  | Description                                         |
-| ---------- | --------------------------------------------------- |
-| MCP server | `docstar` - remote MCP server at `mcp.docstar.io`   |
-
-## Authentication
-
-DocStar uses OAuth 2.0. The first time Cursor connects, a browser window opens
-so you can sign in with your DocStar account. No API keys are needed, and no
-credentials are stored in this repository.
-
-## Support
-
-Open an issue in this repository.
+.cursor-plugin/marketplace.json
+docstar/   .cursor-plugin/plugin.json, mcp.json, README.md, LICENSE
+embarko/   .cursor-plugin/plugin.json, mcp.json, README.md, LICENSE
+```
 
 ## License
 

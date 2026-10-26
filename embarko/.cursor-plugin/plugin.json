@@ -1,0 +1,10 @@
+{
+  "name": "embarko",
+  "version": "1.0.0",
+  "description": "Instant hosting for apps you build with AI. Deploy from Cursor chat and get a live link at your-app.embarko.app. Sign in with OAuth.",
+  "author": { "name": "Embarko" },
+  "homepage": "https://embarko.ai",
+  "repository": "https://github.com/swayammaheshwari/docstar-mcp-integration",
+  "license": "MIT",
+  "keywords": ["mcp", "embarko", "hosting", "deploy", "ai-apps"]
+}

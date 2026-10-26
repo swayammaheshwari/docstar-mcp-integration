@@ -1,0 +1,10 @@
+{
+  "name": "docstar",
+  "version": "1.0.0",
+  "description": "Publish API docs your users' AI assistants can read and call. Connect Cursor to DocStar with OAuth sign-in.",
+  "author": { "name": "DocStar" },
+  "homepage": "https://docstar.io",
+  "repository": "https://github.com/swayammaheshwari/docstar-mcp-integration",
+  "license": "MIT",
+  "keywords": ["mcp", "docstar", "api-docs", "documentation", "oauth"]
+}
